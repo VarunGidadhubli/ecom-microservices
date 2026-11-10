@@ -1,0 +1,43 @@
+# Eclipse / Spring Tool Suite
+.metadata/
+**/.metadata/
+.recommenders/
+**/.recommenders/
+RemoteSystemsTempFiles/
+Servers/
+
+# Eclipse project settings
+.settings/
+**/.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven generated files
+target/
+**/target/
+
+# Java compiled files
+*.class
+bin/
+**/bin/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Build output
+out/
+**/out/

@@ -1,7 +1,7 @@
 package com.ecom.order.service;
 
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestClient;
+//import org.springframework.web.client.RestClient;
 
 import com.ecom.order.client.InventoryClient;
 import com.ecom.order.dto.Inventory;
@@ -9,11 +9,9 @@ import com.ecom.order.dto.Inventory;
 @Service
 public class OrderService {
 
-	private final RestClient restClient;
 	private final InventoryClient inventoryClient;
 
-	public OrderService(RestClient restClient, InventoryClient inventoryClient) {
-		this.restClient = restClient;
+	public OrderService(InventoryClient inventoryClient) {
 		this.inventoryClient = inventoryClient;
 	}
 
